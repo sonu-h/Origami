@@ -1,0 +1,29 @@
+h1 {
+    color: brown;
+}
+
+.header{
+    background-color: bisque;
+display: flex ;
+justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    border: solid;
+    padding: 10px;
+    border-radius: 5%;
+}
+.image{
+    border: 5px solid blue;
+    border-radius: 5%;
+}
